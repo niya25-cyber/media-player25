@@ -28,10 +28,10 @@
 
                 </div>
             </nav>
-            <img src="images (1).jpg" class="song-img">
+            <img src="song.jpg" class="song-img">
             <h1> Despecito </h1>
             <p> Luis Fonsi Ft. Puerto Rican </p>
-            <audio controls> <source src="music.mp3" type="audio/mpeg"></audio>
+            <audio id="song"> <source src="music.mp3" type="audio/mpeg"></audio>
              <input type="range" value="0" id="progress">
 
              <div class="controls">
@@ -39,8 +39,8 @@
                     <i class="fa-solid fa-backward"></i>
 
                 </div>
-                 <div>
-                    <i class="fa-solid fa-play"></i>
+                 <div onclick="playPause()">
+                    <i class="fa-solid fa-play" id="ctrlIcon"></i>
 
                 </div>
                 <div>

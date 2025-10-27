@@ -85,6 +85,25 @@ nav .circle{
  .controls{
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
+    align-items: center;
  }
+
+ .controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #f53192;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+}
+
+.controls div:nth-child(2){
+    transform: scale(1.3);
+    background-color: #f53192;
+    color: #fff;
+}
